@@ -1,0 +1,20 @@
+{
+  "name": "modern-javascript-tooling-with-react",
+  "version": "0.1.0",
+  "description": "some description here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "egghead.io",
+    "egghead",
+    "Modern",
+    "JavaScript",
+    "Tooling",
+    "with",
+    "React"
+  ],
+  "author": "aman-godara",
+  "license": "ISC"
+}
