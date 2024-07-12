@@ -16,5 +16,13 @@
     "React"
   ],
   "author": "aman-godara",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aman-godara/Modern-JavaScript-Tooling-with-React.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aman-godara/Modern-JavaScript-Tooling-with-React/issues"
+  },
+  "homepage": "https://github.com/aman-godara/Modern-JavaScript-Tooling-with-React#readme"
 }
