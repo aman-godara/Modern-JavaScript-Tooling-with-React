@@ -6,13 +6,14 @@ module.exports = {
   output: {
     path: path.join(__dirname, "dist"),
     filename: "app.bundle.js",
+    clean: true,
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         loader: "babel-loader",
-        exclude: /node_modules/,
+        include: path.resolve(__dirname, "src"),
         options: {
           presets: ["@babel/preset-env", "@babel/preset-react"],
         },
@@ -20,7 +21,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
-        exclude: /node_modules/,
+        include: path.resolve(__dirname, "src"),
       },
     ],
   },
