@@ -15,7 +15,15 @@ module.exports = {
         loader: "babel-loader",
         include: path.resolve(__dirname, "src"),
         options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"],
+          presets: [
+            [
+              "@babel/preset-env",
+              {
+                targets: ["last 2 versions", "not dead", "not < 2%"],
+              },
+            ],
+            "@babel/preset-react",
+          ],
           plugins: ["react-hot-loader/babel"],
         },
       },
