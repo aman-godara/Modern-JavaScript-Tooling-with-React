@@ -10,4 +10,8 @@ module.exports = merge(baseConfig, {
       openAnalyzer: false,
     }),
   ],
+  externals: {
+    react: "React",
+    "react-dom": "ReactDOM",
+  },
 });
