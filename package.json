@@ -2,7 +2,6 @@
     "name": "modern-javascript-tooling-with-react",
     "version": "0.1.0",
     "description": "some description here",
-    "main": "src/index.js",
     "type": "module",
     "scripts": {
         "build": "webpack --config webpack.config.production.js",
