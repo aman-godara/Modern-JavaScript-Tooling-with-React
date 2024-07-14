@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './app/App';
-import getGreeting from './greet';
+import App from './app/App.js';
+import getGreeting from './greet.js';
 
 import './index.css';
 

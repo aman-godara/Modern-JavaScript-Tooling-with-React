@@ -1,17 +1,18 @@
-const { merge } = require("webpack-merge");
-const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
-const baseConfig = require("./webpack.config.base");
+import { merge } from 'webpack-merge';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 
-module.exports = merge(baseConfig, {
-  mode: "production",
-  plugins: [
-    new BundleAnalyzerPlugin({
-      analyzerMode: "static",
-      openAnalyzer: false,
-    }),
-  ],
-  externals: {
-    react: "React",
-    "react-dom": "ReactDOM",
-  },
+import baseConfig from './webpack.config.base.js';
+
+export default merge(baseConfig, {
+    mode: 'production',
+    plugins: [
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'static',
+            openAnalyzer: false,
+        }),
+    ],
+    externals: {
+        react: 'React',
+        'react-dom': 'ReactDOM',
+    },
 });

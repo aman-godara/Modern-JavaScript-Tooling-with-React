@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import { hot } from 'react-hot-loader';
 
-const Warning = React.lazy(() => import('./Warning'));
+const Warning = React.lazy(() => import('./Warning.js'));
 
 import './app.css';
 
