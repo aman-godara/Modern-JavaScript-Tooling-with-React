@@ -32,6 +32,7 @@
     },
     "homepage": "https://github.com/aman-godara/Modern-JavaScript-Tooling-with-React#readme",
     "devDependencies": {
+        "@axe-core/react": "^4.9.1",
         "@babel/cli": "^7.24.8",
         "@babel/core": "^7.24.8",
         "@babel/preset-env": "^7.24.8",

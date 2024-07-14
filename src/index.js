@@ -7,6 +7,12 @@ import getGreeting from './greet.js';
 
 import './index.css';
 
+if (process.env.NODE_ENV !== 'production') {
+    import('@axe-core/react').then(reactAxe => {
+        reactAxe.default(React, ReactDOM, 1000);
+    });
+}
+
 ReactDOM.render(
     <StrictMode>
         <ErrorBoundary
