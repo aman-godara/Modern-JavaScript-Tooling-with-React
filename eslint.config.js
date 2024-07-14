@@ -1,8 +1,9 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import pluginReactConfig from 'eslint-plugin-react/configs/recommended.js';
+import jsxA11y from 'eslint-plugin-jsx-a11y';
+import jest from 'eslint-plugin-jest';
 
-// TODO: add jest into globals
 export default [
     { files: ['**/*.{js,mjs,cjs,jsx}'] },
     {
@@ -24,6 +25,8 @@ export default [
     },
     pluginJs.configs.recommended,
     pluginReactConfig,
+    jsxA11y.flatConfigs.recommended,
+    jest.configs['flat/recommended'],
     {
         settings: {
             react: {
