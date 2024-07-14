@@ -1,11 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import App from "./app/App";
-import getGreeting from "./greet";
+import App from './app/App';
+import getGreeting from './greet';
 
-import "./index.css";
+import './index.css';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
 
-console.log(getGreeting("World!"));
+console.log(getGreeting('World!'));
