@@ -17,7 +17,9 @@ const App = () => {
     return (
         <>
             <h1>Hello World!</h1>
-            <Suspense fallback={null}>{state && <Warning />}</Suspense>
+            <Suspense fallback={null}>
+                {state && <Warning info="info text is here" />}
+            </Suspense>
         </>
     );
 };
