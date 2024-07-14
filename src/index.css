@@ -2,3 +2,9 @@
     background-color: aquamarine;
     height: 50vh;
 }
+
+.error-boundary {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
