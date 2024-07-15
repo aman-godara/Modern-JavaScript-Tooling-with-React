@@ -6,6 +6,8 @@ export default merge(baseConfig, {
     mode: 'development',
     devServer: {
         port: 8080,
+        open: true,
+        historyApiFallback: true,
     },
     devtool: 'source-map',
 });
