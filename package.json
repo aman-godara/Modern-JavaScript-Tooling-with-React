@@ -6,6 +6,7 @@
     "scripts": {
         "build": "webpack --config webpack.config.production.js",
         "build:development": "webpack --config webpack.config.development.js",
+        "start": "serve -s dist -l 8080",
         "dev": "webpack-dev-server --open --config webpack.config.development.js",
         "dev:react-hot": "npm run dev -- --hot",
         "test": "jest",
@@ -48,6 +49,7 @@
         "html-webpack-plugin": "^5.6.0",
         "jest": "^29.7.0",
         "prettier": "^3.3.3",
+        "serve": "^14.2.3",
         "style-loader": "^4.0.0",
         "webpack": "^5.93.0",
         "webpack-bundle-analyzer": "^4.10.2",
