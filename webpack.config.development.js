@@ -35,6 +35,7 @@ export default merge(baseConfig, {
     plugins: [new ReactRefreshPlugin()],
     devServer: {
         port: 8080,
+        hot: true,
         open: true,
         historyApiFallback: true,
     },

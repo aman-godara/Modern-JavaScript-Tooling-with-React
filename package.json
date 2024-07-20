@@ -8,7 +8,6 @@
         "build:development": "webpack --config webpack.config.development.js",
         "start": "serve -s dist -l 8080",
         "dev": "webpack-dev-server --config webpack.config.development.js",
-        "dev:react-hot": "npm run dev -- --hot",
         "test": "jest",
         "format": "prettier --write ./",
         "lint": "eslint ./"
